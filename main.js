@@ -8,7 +8,7 @@ today = mm + '/' + dd + '/' + yyyy;
 // document.write(today);
 
     
-axios.get(`https://api.aladhan.com/v1/calendarByCity/${2024}/${mm}?city=Eindhoven&country=nd&method=2`)
+axios.get(`https://api.aladhan.com/v1/calendarByCity/${2024}/${mm}?city=Eindhoven&country=nl&method=2`)
 .then(function (response) {
   // handle success
 
